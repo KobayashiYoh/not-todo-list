@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-control {
+  background-color: #282C34;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.add-button {
+  padding: 8px;
+  background-color: #282C34;
+  color: #fff
+}
+
+ul {
+  text-align: start;
 }
