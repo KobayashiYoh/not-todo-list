@@ -2,20 +2,7 @@ import { useState } from 'react';
 
 const NotTodoList = () => {
 
-    const initialState = [
-        {
-            task: '個人開発',
-            isCompleted: false
-        },
-        {
-            task: 'Reactを触ってみる',
-            isCompleted: false
-        },
-        {
-            task: '朝7時に起きる',
-            isCompleted: false
-        },     
-    ]
+    const initialState = []
 
     const [todos, setTodos] = useState(initialState);
     const [task, setTask] = useState('')
