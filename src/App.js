@@ -3,8 +3,10 @@ import NotTodoList from './NotTodoList';
 
 function App() {
   return (
-    <div style={{margin: "2rem"}} className="App">
-      <NotTodoList/>
+    <div className="App">
+      <header className="App-header">
+        <NotTodoList/>
+      </header>
     </div>
   );
 }

@@ -4,7 +4,7 @@ const NotTodoList = () => {
 
     const initialState = [
         {
-            task: '金曜日の夜に個人開発',
+            task: '個人開発',
             isCompleted: false
         },
         {
@@ -39,13 +39,13 @@ const NotTodoList = () => {
             ここに記載されていることは"絶対に"やってはいけません
             </p>
             <form onSubmit={handleSubmit}>
-                Add Task :
                 <input
                     value={task}
+                    class="font-control"
                     placeholder="Add New Task"
                     onChange={handleNewTask}
                 />
-                <button type="submit">Add</button>
+                <button type="submit" class="add-button">Add</button>
             </form>
             <ul>
                 { todos.map((todo, index) => (
